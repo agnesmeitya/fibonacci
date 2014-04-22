@@ -6,10 +6,11 @@ public static void main (String [] args) {
         System.out.print("input :");
 	 int x=0, y=1,deretfibonaci=scan.nextInt();
 	 for(int i=1; i<=deretfibonaci; i++) {
-		System.out.println("fibonacci :" +x );
 		x=x+y;
 		y=x-y;
+		jumlah=jumlah+x;
 	
 		}
+		System.out.println("fibonacci :" +x );
 	}
 }
