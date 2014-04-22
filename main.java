@@ -7,8 +7,9 @@ public static void main (String [] args) {
 	 int x=0, y=1,deretfibonaci=scan.nextInt();
 	 for(int i=1; i<=deretfibonaci; i++) {
 		System.out.println("fibonacci :" +x );
-		x=x+y;
 		y=x-y;
+		x=x+y;
+		
 	
 		}
 	}
